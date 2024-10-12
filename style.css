@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Merriweather&family=Teko:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Merriweather', serif;
+    font-family: 'Teko', sans-serif;
+}
+body {
+    background-color: dimgrey;
+}
+
+.card {
+    background: linear-gradient(135deg, #00feba, #005b548a );
+    max-width: 470px;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 40px 30px;
+    text-align: center; 
+}
+
+.search {
+    /* width: 100%; */
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* very imp for search boxes height and padding  */
+.search input {
+    border: 0;
+    outline: 0;
+    background: #eefffc;
+    color: #555;
+    height: 60px;
+    border-radius: 30px;
+    padding: 10px 25px;
+    margin-right: 16px;
+    font-size: 18px;
+    flex: 1;
+}
+
+.search button {
+    border: 0;
+    outline: 0;
+    background: #eefffc;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+
+}
+
+.search button img {
+    width: 18px;
+}
+
+.weather-icon {
+    width: 170px;
+    margin-top: 35px;
+} 
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+}
+
+.weather h2 {
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -10px;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity , .wind {
+    font-size: 28px;
+    margin-top: -6px;
+}
+
+.weather {
+    display: none;
+}
+
+.error {
+    text-align: left;
+    margin-left: 10px;
+    font-size: 18px;
+    font-weight: 30px;
+    margin-top: 10px;
+    display: none;
+}
