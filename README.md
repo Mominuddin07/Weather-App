@@ -14,7 +14,7 @@ A **simple weather application** that displays **current weather data** for any 
 
 - HTML5
 - CSS3
-- JavaScript (ES6+)
+- JavaScript 
 - [Weather API](https://openweathermap.org/api) (or whichever API you're using)
 
 ## How to Run the Project
