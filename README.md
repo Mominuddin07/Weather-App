@@ -1,4 +1,4 @@
-# Weather App  [Live Demo](https://your-demo-link.com)
+# Weather App  [Live Demo](https://mominuddin.github.io/weather-app)
 
 A **simple weather application** that displays **current weather data** for any city. This app fetches data from a weather API and displays details like **temperature**, **humidity**, **wind speed**, and **weather conditions**.
 
