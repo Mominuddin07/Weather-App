@@ -99,13 +99,6 @@ The following tools were used in the construction of the project:
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](./LICENSE).
-
-Made with love by Mohammed Mominuddin 👋🏽 [Get in Touch!](https://www.linkedin.com/in/mohammed-mominuddin-350180259/)
-
----
 
 ## Learn More
 
